@@ -17,6 +17,6 @@ pipeline {
 	                 }}
 		stage('Deployment'){
 		   steps {
-		sh 'cp target/project1.war /home/shubhangi/Documents/DevopsSoftware/apache-tomcat-9.0.82/webapps'
+		sh 'cp target/testmultipipeline.war /home/shubhangi/Documents/DevopsSoftware/apache-tomcat-9.0.82/webapps'
 			}}	
 }}
